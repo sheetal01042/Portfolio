@@ -115,18 +115,16 @@ function Home() {
             <p className="eyebrow">About</p>
             <h2 className="mt-4 text-4xl md:text-5xl">Five years inside the growth engines of Shopify and WordPress.</h2>
             <p className="mt-5 text-muted-foreground max-w-lg">
-              I’m Sheetal Sharma, an eCommerce specialist focused on building and optimizing stores that don’t just look good — but perform.Over the past 5+ years, I’ve worked with 50+ brands across fashion, beauty, wellness, and lifestyle — helping them improve conversions, increase average order value, and scale sustainably.
-
-From early-stage startups to fast-growing D2C brands, I bring a mix of development, UX thinking, and CRO strategy to every project.
+              I’m Sheetal Sharma, an eCommerce specialist building and optimizing stores that don’t just look good — but perform. Over 5+ years, I’ve worked with 50+ brands to improve conversions, increase AOV, and drive sustainable growth.
             </p>
-            <Link to="/about" className="btn-ghost mt-7">About the studio <ArrowRight size={16} /></Link>
+            <Link to="/about" className="btn-ghost mt-7">Read More <ArrowRight size={16} /></Link>
           </div>
           <div className="grid grid-cols-2 gap-4">
             {[
-              ["120+", "Projects shipped"],
-              ["60+", "Brands served"],
-              ["47%", "Avg. CVR lift"],
-              ["9 yrs", "In commerce"],
+              ["50+", "Projects Delivered"],
+              ["40+", "Happy Brands"],
+              ["47%", "Avg. CRO lift"],
+              ["5+", "Years Experience"],
             ].map(([v, l], i) => (
               <div key={i} className="rounded-2xl bg-card border border-border p-6">
                 <p className="font-display text-3xl md:text-4xl">{v}</p>
@@ -181,10 +179,10 @@ From early-stage startups to fast-growing D2C brands, I bring a mix of developme
       <section className="section-y border-y border-border">
         <div className="container-x grid grid-cols-2 md:grid-cols-4 gap-y-10">
           {[
-            { v: 120, s: "+", l: "Projects completed" },
-            { v: 60, s: "+", l: "Happy clients" },
-            { v: 47, s: "%", l: "Avg. conversion lift" },
-            { v: 9, s: " yrs", l: "Commerce experience" },
+            { v: 50, s: "+", l: "projects Delivered" },
+            { v: 100, s: "%", l: "Projects Completed" },
+            { v: 47, s: "%", l: "Avg. Conversion Lift" },
+            { v: 10, s: " Hours", l: "Avg. Response Time" },
           ].map((c, i) => (
             <div key={i} className="text-center md:text-left md:pl-8 md:border-l md:border-border first:md:border-l-0">
               <p className="font-display text-5xl md:text-6xl">
@@ -202,16 +200,17 @@ From early-stage startups to fast-growing D2C brands, I bring a mix of developme
           <div className="grid md:grid-cols-[1fr_2fr] gap-12 items-start">
             <div>
               <p className="eyebrow">Services</p>
-              <h2 className="mt-4 text-4xl md:text-5xl">A focused stack of capabilities.</h2>
+              <h2 className="mt-4 text-4xl md:text-5xl">A focused stack of capabilities built for growth.</h2>
               <Link to="/services" className="btn-ghost mt-7">Explore services <ArrowRight size={16} /></Link>
             </div>
             <ul className="divide-y divide-border border-y border-border">
               {[
-                ["01", "Shopify Development", "Headless and theme-based builds on Shopify Plus."],
-                ["02", "WordPress Development", "Custom themes, blocks, WooCommerce and headless."],
-                ["03", "CRO Audit & Optimization", "Research, hypothesis, experiment, compound."],
-                ["04", "eCommerce Strategy", "Roadmaps that align design, dev and growth."],
-                ["05", "Landing Page Design", "Conversion-first systems for paid acquisition."],
+                ["01", "Shopify Development", "Custom storefronts, theme customization, performance optimization."],
+                ["02", "WordPress Development", "High-converting websites using Elementor, custom builds, and headless setups."],
+                ["03", "CRO Audit & Optimization", "Data-driven audits, funnel analysis, A/B testing, and UX improvements."],
+                ["04", "Store Revamp & Migration", "Upgrade existing stores or migrate seamlessly to Shopify/WordPress."],
+                ["05", "UI/UX Design", "Clean, conversion-focused interfaces designed for modern eCommerce."],
+                ["06", "Website Maintenance", "Ongoing support, updates, performance monitoring, and improvements."],
               ].map(([n, t, d]) => (
                 <li key={n} className="py-6 grid grid-cols-[auto_1fr_auto] gap-6 items-center group">
                   <span className="font-display text-muted-foreground">{n}</span>
