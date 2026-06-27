@@ -31,7 +31,7 @@ export function SiteHeader() {
       <div className="container-x flex items-center justify-between h-16 md:h-20">
         <Link to="/" className="flex items-center gap-2 group">
           <span className="inline-block h-2.5 w-2.5 rounded-full bg-ink group-hover:scale-125 transition-transform" />
-          <span className="font-display text-lg tracking-tight">Studio Vela</span>
+          <span className="font-display text-lg tracking-tight">Sheetal Sharma</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
