@@ -7,9 +7,9 @@ import { projects } from "../lib/projects";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Studio Vela — Shopify, WordPress & CRO that converts" },
+      { title: "Sheetal Sharma — Shopify, WordPress & CRO that converts" },
       { name: "description", content: "Premium Shopify and WordPress builds plus CRO programs that turn traffic into revenue for ambitious eCommerce brands." },
-      { property: "og:title", content: "Studio Vela — Shopify, WordPress & CRO that converts" },
+      { property: "og:title", content: "Sheetal Sharma — Shopify, WordPress & CRO that converts" },
       { property: "og:description", content: "Premium Shopify, WordPress and CRO for ambitious eCommerce brands." },
     ],
   }),
@@ -32,7 +32,10 @@ function Home() {
               <span className="italic font-normal text-stone">to convert,</span> not just to ship.
             </h1>
             <p className="mt-7 max-w-xl text-base md:text-lg text-muted-foreground animate-fade-up" style={{ animationDelay: "140ms" }}>
-              I build premium Shopify and WordPress storefronts, then run the CRO programs that compound their revenue — month after month.
+              I help D2C brands and growing eCommerce teams build high-performing Shopify and WordPress stores — then optimize them with CRO systems that compound revenue month after month.
+            </p>
+            <p className="mt-7 max-w-xl text-base md:text-lg text-muted-foreground animate-fade-up" style={{ animationDelay: "140ms" }}>
+              Trusted by 50+ brands including Powersutra, HoneyFlo, Within Beauty, and more.
             </p>
             <div className="mt-9 flex flex-wrap gap-3 animate-fade-up" style={{ animationDelay: "220ms" }}>
               <Link to="/contact" className="btn-ink">Hire me <ArrowUpRight size={16} /></Link>
@@ -82,14 +85,17 @@ function Home() {
           <div className="grid md:grid-cols-[1fr_2fr] gap-12 md:gap-20 items-start">
             <div>
               <p className="eyebrow">Why work with me</p>
-              <h2 className="mt-4 text-4xl md:text-5xl">A partner who ships, measures, and iterates.</h2>
+              <h2 className="mt-4 text-4xl md:text-5xl">A partner who doesn’t just build — but improves what matters.</h2>
+              <p className="mt-5 text-muted-foreground max-w-lg">
+                Most stores look good. Very few convert. I work closely with founders and teams to design, build, and continuously optimize stores using real user behavior, data, and proven CRO frameworks.
+              </p>
             </div>
             <div className="grid sm:grid-cols-2 gap-6">
               {[
-                { i: <Sparkles size={20} />, t: "Craft-led design", d: "Editorial layouts and motion that earn attention without slowing the page." },
-                { i: <Gauge size={20} />, t: "Performance baked in", d: "Sub-second LCP targets, Core Web Vitals as a non-negotiable." },
-                { i: <ShoppingBag size={20} />, t: "Commerce-first", d: "Shopify and Woo built for the metrics that move revenue, not vanity." },
-                { i: <LayoutGrid size={20} />, t: "Systems, not pages", d: "Component libraries your team can extend without redesign debt." },
+                { i: <Sparkles size={20} />, t: "Crafted For Conversion", d: "High-performing storefronts designed to guide users toward action." },
+                { i: <Gauge size={20} />, t: "Performance-driven Decisions", d: "Built using analytics, heatmaps, and real customer behavior." },
+                { i: <ShoppingBag size={20} />, t: "Commerce-first Approach", d: "Every page, section, and interaction is built to increase revenue." },
+                { i: <LayoutGrid size={20} />, t: "Systems, Not Guesswork", d: "Structured testing, iteration, and scalable growth strategies." },
               ].map((u, i) => (
                 <div key={i} className="p-6 rounded-2xl bg-card border border-border hover:-translate-y-0.5 transition-transform">
                   <div className="h-9 w-9 rounded-full bg-paper-2 grid place-items-center">{u.i}</div>
