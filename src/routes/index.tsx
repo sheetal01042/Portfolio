@@ -113,9 +113,11 @@ function Home() {
         <div className="container-x grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="eyebrow">About</p>
-            <h2 className="mt-4 text-4xl md:text-5xl">Nine years inside the carts of Shopify and WordPress.</h2>
+            <h2 className="mt-4 text-4xl md:text-5xl">Five years inside the growth engines of Shopify and WordPress.</h2>
             <p className="mt-5 text-muted-foreground max-w-lg">
-              I'm an independent designer-developer obsessed with the small details that move conversion. I work with founders, in-house teams and agencies who want a senior partner — not a checklist.
+              I’m Sheetal Sharma, an eCommerce specialist focused on building and optimizing stores that don’t just look good — but perform.Over the past 5+ years, I’ve worked with 50+ brands across fashion, beauty, wellness, and lifestyle — helping them improve conversions, increase average order value, and scale sustainably.
+
+From early-stage startups to fast-growing D2C brands, I bring a mix of development, UX thinking, and CRO strategy to every project.
             </p>
             <Link to="/about" className="btn-ghost mt-7">About the studio <ArrowRight size={16} /></Link>
           </div>
