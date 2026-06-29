@@ -22,11 +22,14 @@ function CroAudit() {
           <p className="eyebrow">CRO Audit · 14-day delivery</p>
           <h1 className="mt-5 text-[2.5rem] md:text-6xl">Find the revenue your store is quietly losing.</h1>
           <p className="mt-6 max-w-2xl text-lg text-muted-foreground">
-            A 14-day expert audit of your Shopify or WordPress storefront. You get a prioritized fix list, a 90-day test roadmap, and a clear estimate of the revenue at stake.
+            A focused CRO audit for Shopify & WordPress stores — built to uncover what’s hurting conversions and exactly how to fix it.
+          </p>
+          <p className="mt-6 max-w-2xl text-lg text-muted-foreground">
+            You’ll get a clear breakdown of issues, prioritized fixes, and a roadmap to improve performance — without the fluff.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link to="/contact" className="btn-ink">Book the audit <ArrowUpRight size={16} /></Link>
-            <a href="#whats-included" className="btn-ghost">What's included</a>
+            <a href="#whats-included" className="btn-ghost">Chat On WhatsApp</a>
           </div>
           <div className="mt-10 flex flex-wrap gap-x-8 gap-y-3 text-sm text-muted-foreground">
             <span className="inline-flex items-center gap-2"><Check size={14} /> Fixed-scope, fixed-fee</span>
