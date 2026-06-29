@@ -16,7 +16,8 @@ export const Route = createFileRoute("/")({
   component: Home,
 });
 
-const logos = ["Aurelia", "North Supply", "Maison Verre", "Fielder", "Halden", "Orbit", "Lumen", "Kinto"];
+
+const logos = ["/Images/Logos/ataara-logo.png", "North Supply", "Maison Verre", "Fielder", "Halden", "Orbit", "Lumen", "Kinto"];
 
 function Home() {
   const featured = projects.slice(0, 4);
@@ -58,12 +59,12 @@ function Home() {
               <div className="rounded-2xl border border-border bg-card p-6 flex flex-col justify-between">
                 <span className="eyebrow">Avg. uplift</span>
                 <p className="font-display text-4xl"><Counter to={47} suffix="%" /></p>
-                <p className="text-xs text-muted-foreground">across recent CRO programs</p>
+                <p className="text-xs text-muted-foreground">Avg. Conversion Uplift</p>
               </div>
               <div className="rounded-2xl bg-ink text-paper p-6 flex flex-col justify-between">
-                <span className="eyebrow text-paper/60">Now booking</span>
-                <p className="font-display text-2xl text-paper">Q3 — 2026</p>
-                <Link to="/contact" className="text-xs text-paper/80 link-underline w-fit">Reserve a slot →</Link>
+                <span className="eyebrow text-paper/60">ROI generated</span>
+                <p className="font-display text-2xl text-paper">3.2x – 18x</p>
+                <Link to="/contact" className="text-xs text-paper/80 link-underline w-fit">Get A Quote →</Link>
               </div>
             </div>
           </div>
@@ -233,7 +234,7 @@ function Home() {
           <h2 className="mt-3 text-4xl md:text-5xl max-w-2xl">Trusted by founders and in-house teams.</h2>
           <div className="mt-12 grid md:grid-cols-3 gap-5">
             {[
-              { q: "Our CVR jumped 38% in three months. The work pays for itself many times over.", a: "Priya N.", r: "Founder, Maison Verre" },
+              { q: "Our conversion rate improved by over 40% within the first few months. The biggest difference was how data-driven everything felt.", a: "Priya N.", r: "Founder, Maison Verre" },
               { q: "The most thorough Shopify partner we've worked with. Senior from day one.", a: "Marcus T.", r: "Head of Ecom, Aurelia" },
               { q: "Shipped a 14-test roadmap without missing a release. Rare.", a: "Hannah L.", r: "Growth Lead, Orbit" },
             ].map((t, i) => (
