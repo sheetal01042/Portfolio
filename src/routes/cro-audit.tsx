@@ -198,8 +198,8 @@ function CroAudit() {
       <section className="section-y">
         <div className="container-x grid md:grid-cols-2 gap-5">
           {[
-            { q: "The audit paid for itself within 30 days. The roadmap kept paying for another six months.", a: "Priya N., Maison Verre" },
-            { q: "Finally, a CRO partner who reads the data and ships the work. Both. Without drama.", a: "Marcus T., Aurelia" },
+            { q: "The audit paid for itself within 30 days. The roadmap kept paying for months.", a: "Prachi Khanduja, Phuljhadi" },
+            { q: "Finally, a CRO partner who actually understands the work. Clear, practical, and straight to the point.", a: "Aayushi Jain Mehta, Weaving Cult" },
           ].map((t, i) => (
             <figure key={i} className="rounded-2xl border border-border bg-card p-8">
               <Quote size={18} />
@@ -215,8 +215,8 @@ function CroAudit() {
 
       <CTASection
         eyebrow="Book the audit"
-        title="Two weeks from now, you'll know exactly what to fix."
-        body="Fixed scope. Fixed fee. Money-back if there isn't a single actionable insight."
+        title="Two weeks from now, you’ll know exactly what to fix."
+        body="No guesswork. No generic advice. Just clear, actionable insights you can implement immediately."
       />
     </>
   );
