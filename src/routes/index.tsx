@@ -124,17 +124,18 @@ function Home() {
         </div>
 
         {/* Marquee logos */}
-        <div className="border-y border-border py-8 overflow-hidden">
+        <div className="border-y border-border py-10 overflow-hidden">
           <div className="flex animate-marquee whitespace-nowrap items-center">
             {[...logos, ...logos].map((logo, i) => (
               <div
                 key={i}
-                className="mx-10 flex items-center justify-center opacity-70 hover:opacity-100 transition"
+                className="mx-14 flex items-center justify-center"
+                style={{ minWidth: "120px" }}
               >
                 <img
                   src={logo}
                   alt={`brand-${i}`}
-                  className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition"
+                  className="h-12 md:h-14 w-auto object-contain"
                   loading="lazy"
                 />
               </div>
