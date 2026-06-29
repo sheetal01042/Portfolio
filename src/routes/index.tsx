@@ -72,9 +72,19 @@ function Home() {
 
         {/* Marquee logos */}
         <div className="border-y border-border py-8 overflow-hidden">
-          <div className="flex animate-marquee whitespace-nowrap">
-            {[...logos, ...logos].map((l, i) => (
-              <span key={i} className="font-display text-2xl md:text-3xl text-muted-foreground/70 mx-10">{l}</span>
+          <div className="flex animate-marquee whitespace-nowrap items-center">
+            {[...logos, ...logos].map((logo, i) => (
+              <div
+                key={i}
+                className="mx-10 flex items-center justify-center opacity-70 hover:opacity-100 transition"
+              >
+                <img
+                  src={logo}
+                  alt={`brand-${i}`}
+                  className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition"
+                  loading="lazy"
+                />
+              </div>
             ))}
           </div>
         </div>
@@ -246,7 +256,7 @@ function Home() {
                     <p className="text-sm font-medium">{t.a}</p>
                     <p className="text-xs text-muted-foreground">{t.r}</p>
                   </div>
-                  <div className="flex gap-0.5">{Array.from({length:5}).map((_,i)=>(<Star key={i} size={12} className="fill-ink text-ink" />))}</div>
+                  <div className="flex gap-0.5">{Array.from({ length: 5 }).map((_, i) => (<Star key={i} size={12} className="fill-ink text-ink" />))}</div>
                 </figcaption>
               </figure>
             ))}
