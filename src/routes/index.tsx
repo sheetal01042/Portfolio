@@ -17,7 +17,14 @@ export const Route = createFileRoute("/")({
 });
 
 
-const logos = ["/Images/Logos/ataara-logo.png", "North Supply", "Maison Verre", "Fielder", "Halden", "Orbit", "Lumen", "Kinto"];
+const logos = [
+  "/Images/Logos/ataara-logo.png",
+  "/Images/Logos/ataara-logo.png",
+  "/Images/Logos/ataara-logo.png",
+  "/Images/Logos/ataara-logo.png",
+  "/Images/Logos/ataara-logo.png",
+  "/Images/Logos/ataara-logo.png"
+];
 
 function Home() {
   const featured = projects.slice(0, 4);
