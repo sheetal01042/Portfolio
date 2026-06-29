@@ -19,7 +19,7 @@ function CroAudit() {
     <>
       <section className="container-x pt-16 md:pt-28 pb-16 md:pb-24">
         <div className="max-w-4xl">
-          <p className="eyebrow">CRO Audit · 14-day delivery</p>
+          <p className="eyebrow">CRO Audit</p>
           <h1 className="mt-5 text-[2.5rem] md:text-6xl">Find the revenue your store is quietly losing.</h1>
           <p className="mt-6 max-w-2xl text-lg text-muted-foreground">
             A focused CRO audit for Shopify & WordPress stores — built to uncover what’s hurting conversions and exactly how to fix it.
