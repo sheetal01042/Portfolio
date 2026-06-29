@@ -19,11 +19,11 @@ export const Route = createFileRoute("/")({
 
 const logos = [
   "/Images/Logos/ataara-logo.png",
-  "/Images/Logos/ataara-logo.png",
-  "/Images/Logos/ataara-logo.png",
-  "/Images/Logos/ataara-logo.png",
-  "/Images/Logos/ataara-logo.png",
-  "/Images/Logos/ataara-logo.png"
+  "/Images/Logos/betteralt-logo.png",
+  "/Images/Logos/bhava-earth-logo.png",
+  "/Images/Logos/blitzgro-logo.png",
+  "/Images/Logos/Bloom-Up-logo.png",
+  "/Images/Logos/cha-logo.png"
 ];
 
 function Home() {
