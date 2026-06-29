@@ -32,9 +32,9 @@ function CroAudit() {
             <a href="#whats-included" className="btn-ghost">Chat On WhatsApp</a>
           </div>
           <div className="mt-10 flex flex-wrap gap-x-8 gap-y-3 text-sm text-muted-foreground">
-            <span className="inline-flex items-center gap-2"><Check size={14} /> Fixed-scope, fixed-fee</span>
-            <span className="inline-flex items-center gap-2"><Check size={14} /> Loom walkthrough + PDF</span>
-            <span className="inline-flex items-center gap-2"><Check size={14} /> Money-back if no actionable insight</span>
+            <span className="inline-flex items-center gap-2"><Check size={14} /> Fixed starting price ₹1,500</span>
+            <span className="inline-flex items-center gap-2"><Check size={14} /> Delivered in 5–7 days</span>
+            <span className="inline-flex items-center gap-2"><Check size={14} /> Limited to 5 audits/week</span>
           </div>
         </div>
       </section>
@@ -44,13 +44,16 @@ function CroAudit() {
         <div className="container-x">
           <p className="eyebrow">If any of this sounds familiar…</p>
           <h2 className="mt-3 text-3xl md:text-5xl max-w-3xl">Traffic is up. Revenue isn't.</h2>
+          <p className="mt-6 max-w-2xl text-lg text-muted-foreground">
+            Most stores don’t have a traffic problem — they have a conversion problem.
+          </p>
           <div className="mt-12 grid md:grid-cols-3 gap-5">
             {[
-              "Ad spend is climbing but CVR is flat.",
-              "Your PDP looks polished but visitors bounce.",
-              "Cart and checkout abandonment over 70%.",
-              "You're guessing what to ship next.",
-              "Analytics is set up — but unused.",
+              "Your product pages look decent — but don’t convert.",
+              "Visitors browse, but rarely add to cart.",
+              "Mobile experience feels clunky or confusing.",
+              "Trust signals are weak or missing.",
+              "Checkout flow creates unnecessary friction.",
               "You've never shipped a real A/B test.",
             ].map((p, i) => (
               <div key={i} className="rounded-2xl border border-border bg-card p-6">
@@ -66,19 +69,22 @@ function CroAudit() {
       <section id="whats-included" className="section-y">
         <div className="container-x grid md:grid-cols-[1fr_2fr] gap-12">
           <div>
-            <p className="eyebrow">What's included</p>
-            <h2 className="mt-3 text-3xl md:text-4xl">Everything you need to take action on Monday.</h2>
+            <p className="eyebrow">What You Get</p>
+            <h2 className="mt-3 text-3xl md:text-4xl">Everything you need to fix what’s broken.</h2>
+            <p className="mt-6 max-w-2xl text-lg text-muted-foreground">
+              A complete, no-fluff audit focused on real impact — not generic advice.
+            </p>
           </div>
           <ul className="divide-y divide-border border-y border-border">
             {[
-              ["Heuristic UX audit", "20+ point review across home, PDP, cart, checkout."],
-              ["Analytics health check", "GA4, server-side tagging, event accuracy."],
-              ["Quant deep-dive", "Funnel drop-off, segment behavior, device breakdown."],
-              ["Qual research", "Session recordings + on-site survey synthesis."],
-              ["Performance review", "Core Web Vitals, asset audit, render pipeline."],
-              ["Prioritized fix list", "Effort × impact scored, ready for sprint."],
-              ["90-day test roadmap", "12+ hypotheses with success criteria."],
-              ["Loom walkthrough", "60-min recorded review of every finding."],
+              ["Heuristic UX Audit", "Deep review of Homepade, collection page, product pages, cart, checkout & overall flow."],
+              ["Conversion-focused Insights", "What’s stopping users from buying (and how to fix it)."],
+              ["Heatmap & Session Analysis", "Using tools like Clarity & Hotjar to understand behavior."],
+              ["Mobile-first Review", "Because most of your users are on mobile."],
+              ["Performance & Trust Checks", "Speed, credibility, and decision friction points."],
+              ["Prioritized Action List", "Clear “what to fix first” roadmap."],
+              ["5–7 Day Delivery", "Fast turnaround without compromising depth."],
+              ["PDF / PPT Audit Report", "Clean, structured, and easy to implement."],
             ].map(([t, d], i) => (
               <li key={i} className="py-6 grid grid-cols-[auto_1fr] gap-6">
                 <Check size={20} className="mt-1" />
@@ -96,12 +102,12 @@ function CroAudit() {
       <section className="section-y border-y border-border">
         <div className="container-x">
           <p className="eyebrow">The process</p>
-          <h2 className="mt-3 text-3xl md:text-5xl">Two weeks. Three milestones.</h2>
+          <h2 className="mt-3 text-3xl md:text-5xl">5–7 Days. Clear Insights. No Confusion.</h2>
           <div className="mt-12 grid md:grid-cols-3 gap-5">
             {[
-              ["Day 1–3", "Kickoff & access", "Goals, KPIs, and read-only access to your analytics, store and session tools."],
-              ["Day 4–10", "Research & analysis", "Quant + qual deep-dive. We find the leaks, not just the symptoms."],
-              ["Day 11–14", "Deliverables & walkthrough", "Audit PDF, prioritized list, 90-day roadmap and a 60-min Loom review."],
+              ["Day 1–2", "Store Analysis", "Review UX, product pages, and key flows."],
+              ["Day 3–4", "Behavior Analysis", "Heatmaps, recordings & friction points."],
+              ["Day 5–7", "Audit & Delivery", "Detailed report with prioritized fixes."],
             ].map(([d, t, body], i) => (
               <div key={i} className="rounded-2xl border border-border p-7 bg-card">
                 <p className="font-display text-muted-foreground text-sm">{d}</p>
@@ -119,16 +125,16 @@ function CroAudit() {
           <div>
             <p className="eyebrow">Outcomes</p>
             <h2 className="mt-3 text-3xl md:text-4xl">What you walk away with.</h2>
-            <p className="mt-5 text-muted-foreground">A clear, evidence-backed view of where revenue is leaking — and the exact tests to plug it.</p>
+            <p className="mt-5 text-muted-foreground">A clear understanding of where your store is leaking revenue — and how to fix it.</p>
           </div>
           <ul className="grid sm:grid-cols-2 gap-3">
             {[
-              "Clarity on your highest-impact fixes",
-              "Revenue estimate per recommendation",
-              "A roadmap your team can execute on",
-              "Benchmark vs. category peers",
-              "Analytics you can finally trust",
-              "Optional implementation by Studio Vela",
+              "Identify what’s hurting conversions",
+              "Fix high-impact issues first",
+              "Improve add-to-cart rate",
+              "Reduce checkout drop-offs",
+              "Increase AOV with better UX",
+              "Make data-backed decisions",
             ].map((b, i) => (
               <li key={i} className="rounded-2xl border border-border p-5 bg-card text-sm">
                 <Check size={14} className="mb-2" /> {b}
@@ -144,9 +150,9 @@ function CroAudit() {
           <p className="eyebrow">From recent audits</p>
           <div className="mt-8 grid md:grid-cols-3 gap-5">
             {[
-              ["Maison Verre", "+38% RPV", "14 tests shipped over 6 months."],
-              ["Aurelia", "+62% CVR", "Headless rebuild + PDP redesign."],
-              ["Orbit", "−34% CAC", "Programmatic LP system."],
+              ["D2C Fashion Brand", "+32% CVR", "PDP + trust signal fixes."],
+              ["Skincare Brand", "+27% Add-to-Cart", "Mobile UX improvements."],
+              ["Wellness Brand", "-22% Checkout Drop-offs", "Simplified checkout flow"],
             ].map(([c, m, d], i) => (
               <div key={i} className="rounded-2xl border border-border bg-card p-6">
                 <p className="font-display text-2xl">{m}</p>
