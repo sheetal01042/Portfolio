@@ -129,7 +129,7 @@ function Home() {
             {[...logos, ...logos].map((logo, i) => (
               <div
                 key={i}
-                className="mx-14 flex items-center justify-center"
+                className="mx-8 flex items-center justify-center"
                 style={{ minWidth: "120px" }}
               >
                 <img
