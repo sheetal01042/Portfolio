@@ -181,4 +181,4 @@
   to { transform: translateX(-50%); }
 }
 .animate-fade-up { animation: fade-up .7s ease-out both; }
-.animate-marquee { animation: marquee 30s linear infinite; }
+.animate-marquee { animation: marquee 10s linear infinite; }
