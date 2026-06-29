@@ -164,6 +164,36 @@ function CroAudit() {
         </div>
       </section>
 
+      <section id="whats-included" className="section-y">
+        <div className="container-x grid md:grid-cols-[1fr_2fr] gap-12">
+          <div>
+            <p className="eyebrow">Differentiator</p>
+            <h2 className="mt-3 text-3xl md:text-4xl">Not Just Another Audit.</h2>
+            <p className="mt-6 max-w-2xl text-lg text-muted-foreground">
+              Most audits give you a report. This gives you clarity.
+            </p>
+          </div>
+          <ul className="divide-y divide-border border-y border-border">
+            {[
+              ["Built For D2C Brands", "Understands real user behavior, pricing psychology & COD-heavy markets."],
+              ["Development + CRO Combined", "Not just insights — fixes are technically feasible and practical."],
+              ["Execution-first Approach", "Focused on what actually moves numbers, not theory or fluff."],
+              ["Founder Mindset", "Every suggestion is made with growth, revenue, and scalability in mind."],
+              ["Clear, No-BS Audits", "Straight to the point — what’s wrong, why it matters, how to fix it."],
+              ["Fast Turnaround", "Get actionable insights in 5–7 days, not weeks."],
+            ].map(([t, d], i) => (
+              <li key={i} className="py-6 grid grid-cols-[auto_1fr] gap-6">
+                <Check size={20} className="mt-1" />
+                <div>
+                  <p className="font-display text-lg">{t}</p>
+                  <p className="text-sm text-muted-foreground">{d}</p>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
       {/* Testimonials */}
       <section className="section-y">
         <div className="container-x grid md:grid-cols-2 gap-5">
