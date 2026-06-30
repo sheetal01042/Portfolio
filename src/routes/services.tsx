@@ -7,7 +7,7 @@ export const Route = createFileRoute("/services")({
     meta: [
       { title: "Services — Studio Vela" },
       { name: "description", content: "Shopify, WordPress, CRO audits, eCommerce strategy and landing page design." },
-      { property: "og:title", content: "Services — Studio Vela" },
+      { property: "og:title", content: "Services — Sheetal Sharma" },
       { property: "og:description", content: "Shopify, WordPress, CRO and eCommerce strategy." },
     ],
   }),
@@ -18,7 +18,7 @@ const services = [
   {
     n: "01",
     t: "Shopify Development",
-    d: "Premium Shopify and Shopify Plus storefronts — themed or headless. Built around speed, accessibility, and post-launch experimentation.",
+    d: "Custom storefronts built for performance, scalability, and conversions — whether theme-based or headless.",
     process: ["Audit & strategy", "Information architecture", "Design system", "Theme build / Hydrogen", "Launch + measurement"],
     benefits: ["Sub-second LCP", "Composable component library", "Conversion-ready PDP & checkout"],
   },
@@ -57,8 +57,8 @@ function Services() {
     <>
       <section className="container-x pt-16 md:pt-28 pb-12">
         <p className="eyebrow">Services</p>
-        <h1 className="mt-5 text-[2.5rem] md:text-6xl max-w-4xl">Senior craft, end to end.</h1>
-        <p className="mt-5 max-w-xl text-lg text-muted-foreground">Five disciplines. One practitioner. Engagements typically blend design, development and CRO into a single integrated program.</p>
+        <h1 className="mt-5 text-[2.5rem] md:text-6xl max-w-4xl">Senior Craft, End To End.</h1>
+        <p className="mt-5 max-w-xl text-lg text-muted-foreground">Seven disciplines. One Practitioner. Designed to help eCommerce brands build, optimize, and scale — without unnecessary complexity.</p>
       </section>
 
       <section className="container-x">
